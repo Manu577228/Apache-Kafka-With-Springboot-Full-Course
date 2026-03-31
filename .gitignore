@@ -1,0 +1,106 @@
+# =========================
+# 🚫 Logs & Runtime Files
+# =========================
+*.log
+logs/
+output.log
+
+# =========================
+# 🚫 Build Outputs
+# =========================
+target/
+build/
+out/
+
+# Keep nested target/build if needed
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# 🚫 Maven Wrapper
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# 🚫 Dependency / Binary Files
+# =========================
+*.jar
+*.war
+*.ear
+*.class
+
+# (IMPORTANT: Kafka local libs)
+kafka_server/libs/
+
+# =========================
+# 🚫 OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🚫 IDE - IntelliJ
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# 🚫 IDE - Eclipse / STS
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# =========================
+# 🚫 IDE - NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# 🚫 VS Code
+# =========================
+.vscode/
+
+# =========================
+# 🚫 Temp / Cache
+# =========================
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# 🚫 Environment / Secrets
+# =========================
+.env
+*.env
+application-local.yml
+application-dev.yml
+
+# =========================
+# 🚫 Kafka / Zookeeper Data
+# =========================
+kafka-logs/
+zookeeper/
+data/
+
+# =========================
+# 🚫 Node (if frontend present)
+# =========================
+node_modules/
+
+# =========================
+# 🚫 Coverage Reports
+# =========================
+coverage/
